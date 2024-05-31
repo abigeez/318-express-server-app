@@ -29,5 +29,5 @@ app.get('/homepage', (req,res) => {
 
 //404 page
 app.use((req,res) => {
-    res.status(404).send("Sorry can't find that");
+    res.status(404).send(" 404 - Sorry, can't find that!");
 });
