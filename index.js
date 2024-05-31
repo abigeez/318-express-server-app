@@ -13,7 +13,7 @@ app.listen(port,() => {
 
 });
 app.get('/',(req,res)=> {
-    res.send('Welcome to the Homepage!');
+    res.sendFile('./views/homepage.html',{root: __dirname});
 })
 
 
