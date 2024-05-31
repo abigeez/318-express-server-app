@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+//register view engine
+app.set('view engine', 'ejs');
+
 const port = 5050;
 const userRouter = require["./routes/users.js"];
 const postsRouter = require["./routes/posts.js"]
