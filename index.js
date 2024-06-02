@@ -28,7 +28,7 @@ app.listen(port,() => {
 
 //establishing route using view engine for homepage///
 app.get('/',(req,res) => {
-    res.render('index');
+    res.render('index',{title: 'Homepage'});
 });
 
 // route using view engine for login page//
