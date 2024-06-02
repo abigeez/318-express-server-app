@@ -1,0 +1,6 @@
+.viewStyle {
+color:green;
+list-style-type: none;
+display: flex;
+justify-content: end;
+}
